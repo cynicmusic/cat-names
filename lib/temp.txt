@@ -1,0 +1,32 @@
+new Image.network(
+          'https://github.com/flutter/website/blob/master/_includes/code/layout/lakes/images/lake.jpg?raw=true'),
+
+
+          // Widget getSuggestions() {
+
+  // return new FutureBuilder<String>(
+  // future: loadAsset(), // a Future<String> or null
+  // builder: (BuildContext context, AsyncSnapshot<String> snapshot) {
+  //   switch (snapshot.connectionState) {
+  //     case ConnectionState.none: return new Text('Press button to start');
+  //     case ConnectionState.waiting: return new Text('Awaiting result...');
+  //     default:
+  //       if (snapshot.hasError)
+  //         return new Text('Error: ${snapshot.error}');
+  //       else
+  //         return new ListView.builder(
+  //           padding: const EdgeInsets.all(16.0),
+  //           itemBuilder: (context, i) {
+  //             if (i.isOdd) return new Divider();
+  //             final index = i ~/ 2;
+  //             if (index >= _suggestions.length) {
+  //               _suggestions.addAll(generateWordPairs().take(10));
+  //             }
+  //             return _buildRow(_suggestions[index]);
+  //           }
+
+  //   );
+  //   }
+  //   },
+  // );
+  // }
